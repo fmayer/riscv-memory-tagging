@@ -139,7 +139,7 @@ unsigned value `tag_imm4` shifted left by `XLEN - pointer_tag_width` bits and
 places incremented `pointer_tag` value in `rd[XLEN:XLEN-pointer_tag_width+1]`.
 
 If memory tagging is disabled in the current execution environment (see
-<<MEM_TAG_EN>>), then `addtag` instruction copies `rs1` into `rd.
+<<MEM_TAG_EN>>), then `addtag` instruction moves `rs1` into `rd.
 
 
 [wavedrom, ,svg]
