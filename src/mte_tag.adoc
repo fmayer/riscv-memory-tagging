@@ -161,7 +161,7 @@ If memory tagging is disabled in the current execution environment (see
 has three different semantics depending on execution environment
 
 * MT is not implemented: `rd` is zeroed;
-* MT is implemented by disabled in the current execution environment: `rs1`
+* MT is implemented but disabled in the current execution environment: `rs1`
   is copied into `rd`;
 * MT is enabled in the current execution environment: the tag addition is
   performed.
