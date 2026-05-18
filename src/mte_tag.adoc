@@ -166,7 +166,7 @@ has three different semantics depending on execution environment
 * MT is enabled in the current execution environment: the tag addition is
   performed.
 
-Because that menas `rd` always contains a valid pointer if MT is implemented,
+That means `rd` always contains a valid pointer if MT is implemented,
 this allows improved codegen if the target is known to implement MT. See
 "Example: optimized stack tagging codegen" in Appendix.
 =====
