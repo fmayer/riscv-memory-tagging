@@ -713,7 +713,7 @@ for trapping instruction is deposited in `hstatus.MTAG_I`.
 
 ==== Example: optimized stack tagging codegen
 
-If we know we are compiling for a target that implements Zimt, we can
+Software that targets implementations which support Zimt can
 optimize the stack codegen to skip `or` when constructing pointers to
 objects.
 
